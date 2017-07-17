@@ -11,9 +11,9 @@ import com.revature.model.BankUser;
 
 public class BankUserDaoImpl implements BankUserDao{
 
-	private static final String USERNAME = "bank_db";
+	private static final String USERNAME = "aws_bank_db";
 	private static final String PASSWORD = "p4ssw0rd";
-	private static final String URL = "jdbc:oracle:thin:@localhost:1521:xe";
+	private static final String URL = "jdbc:oracle:thin:@octocat.cp5mxdxxxdup.us-west-2.rds.amazonaws.com:1521:ORCL";
 	
 	
 	
